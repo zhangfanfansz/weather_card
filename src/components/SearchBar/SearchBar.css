@@ -1,0 +1,21 @@
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+  margin: 50px 0 0 50px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.search-bar button {
+  right: 4px;
+  padding: 5px;
+  background-color: rgb(133, 76, 207);
+  border-radius: 15px;
+  position: absolute;
+}

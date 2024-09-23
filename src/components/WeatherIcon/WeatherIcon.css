@@ -1,0 +1,9 @@
+.weather-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-icon img{
+  width: 100px;
+  height: 100px;
+}

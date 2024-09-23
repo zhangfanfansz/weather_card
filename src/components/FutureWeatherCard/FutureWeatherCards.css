@@ -1,0 +1,9 @@
+.sub-column{
+  flex: 0 0 25%;
+}
+
+.future-weathercard{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}

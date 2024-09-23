@@ -1,0 +1,47 @@
+.temperature .current_temperature{
+  font-size: xxx-large;
+  margin-left: 25px;
+}
+
+.temperature .temperature_range{
+  font-size: x-small;
+}
+
+.other-weather-infos{
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  width: 80%;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10%;
+  padding: 0 10px 0 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 20px 10px;
+  background-color: rgba(185, 213, 240, 0.905);
+  img{
+    width: 20px
+  }
+  font-size: x-small;
+}
+
+.city-weather-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+
+  background-size: cover;
+  background-color: rgb(71, 147, 234);
+  width: 100%;
+  max-width: 330px;
+  border-radius: 35px;
+}
+
+.time-header{
+  margin: 5% 0 0 10%;
+  font-size: xx-small;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

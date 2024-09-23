@@ -1,0 +1,21 @@
+.weather-card{
+  break-inside: avoid;
+  display: flex;
+  justify-content: flex-start;
+  flex: 0 0 33%;
+  
+}
+
+.weather-page{
+  display: flex;
+  max-width: 70%;
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  padding: 50px 80px 50px 50px;
+  background-color:rgb(248, 241, 247);
+}
+
+.weather-card-right{
+  flex: 1;
+}
